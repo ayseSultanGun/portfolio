@@ -1,10 +1,44 @@
-body {
-  background-color: bisque;
-  color: saddlebrown;
-  text-align: center;
+:root {
+  --first-color: #f9f2ed;
+  --secondary-color: #3ab0ff;
+  --third-color: #ffb562;
+  --fourth-color: #f87474;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-h1 {
+.hero {
+  background-color: var(--first-color);
+  text-align: right;
+  padding: 160px 20px;
+}
+
+.hero h1 {
   font-family: "Capriola", sans-serif;
-  margin: 200px 20px;
+  color: var(--fourth-color);
+  font-size: 96px;
+  padding-right: 400px;
+}
+
+.hero h3 {
+  color: var(--third-color);
+  font-size: 24px;
+  line-height: 2;
+  font-weight: normal;
+  padding-right: 530px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: var(--secondary-color);
+  padding-right: 530px;
+}
+.hero a {
+  color: var(--secondary-color);
+  padding: 32px;
+  border-radius: 50%;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
 }
