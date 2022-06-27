@@ -6,6 +6,10 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+body {
+  font-family: "Capriola", sans-serif;
+  border: dotted 15px var(--third-color);
+}
 .hero {
   background-color: var(--first-color);
   text-align: right;
@@ -13,7 +17,6 @@
 }
 
 .hero h1 {
-  font-family: "Capriola", sans-serif;
   color: var(--fourth-color);
   font-size: 96px;
   padding-right: 400px;
@@ -41,4 +44,20 @@
   font-size: 18px;
   line-height: 27px;
   font-weight: bold;
+}
+.divider {
+  color: var(--fourth-color);
+}
+.project-showcase {
+  padding: 160px 20px;
+}
+.project-showcase h2 {
+  color: var(--third-color);
+}
+.project-showcase p {
+  color: var(--secondary-color);
+}
+.project-showcase a {
+  background: var(--fourth-color);
+  color: var(--first-color);
 }
