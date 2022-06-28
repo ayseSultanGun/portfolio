@@ -19,7 +19,7 @@ body {
 .hero h1 {
   color: var(--fourth-color);
   font-size: 96px;
-  padding-right: 400px;
+  padding-right: 100px;
 }
 
 .hero h3 {
@@ -27,7 +27,7 @@ body {
   font-size: 24px;
   line-height: 2;
   font-weight: normal;
-  padding-right: 530px;
+  padding-right: 100px;
 }
 
 .hero p {
@@ -35,7 +35,7 @@ body {
   font-weight: bold;
   margin: 0;
   color: var(--secondary-color);
-  padding-right: 530px;
+  padding-right: 100px;
 }
 .hero a {
   color: var(--secondary-color);
@@ -49,7 +49,8 @@ body {
   color: var(--fourth-color);
 }
 .project-showcase {
-  padding: 160px 20px;
+  padding: 100px 0;
+  margin: 0;
 }
 .project-showcase h2 {
   color: var(--third-color);
@@ -60,4 +61,48 @@ body {
 .project-showcase a {
   background: var(--fourth-color);
   color: var(--first-color);
+}
+
+@media (max-width: 600px) {
+  .hero {
+    padding-bottom: 50px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+    text-align: center;
+    padding: 0;
+  }
+  .hero p {
+    font-size: 15px;
+    text-align: center;
+    padding: 0;
+  }
+  .hero h3 {
+    font-size: 12px;
+    text-align: center;
+    padding: 0;
+  }
+  .project-showcase {
+    padding-top: 30px;
+  }
+  .project-showcase a {
+    display: block;
+    margin: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero h1 {
+    padding-right: 200px;
+  }
+  .hero h3 {
+    padding-right: 320px;
+  }
+  .hero p {
+    padding-right: 320px;
+  }
+  .project-showcase {
+    margin-left: 100px;
+  }
 }
