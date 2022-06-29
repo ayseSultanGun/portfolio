@@ -22,6 +22,14 @@ body {
   padding-right: 100px;
 }
 
+h1 {
+  color: var(--fourth-color);
+  font-size: 54px;
+  padding: 75px;
+  background-color: var(--first-color);
+  text-align: right;
+}
+
 .hero h3 {
   color: var(--third-color);
   font-size: 24px;
@@ -37,6 +45,15 @@ body {
   color: var(--secondary-color);
   padding-right: 100px;
 }
+
+.bio-text {
+  color: var(--secondary-color);
+  margin-left: 300px;
+  margin-right: 200px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
 .hero a {
   color: var(--secondary-color);
   padding: 32px;
@@ -59,6 +76,10 @@ body {
   color: var(--secondary-color);
 }
 .project-showcase a {
+  background: var(--fourth-color);
+  color: var(--first-color);
+}
+.bio-text a {
   background: var(--fourth-color);
   color: var(--first-color);
 }
@@ -104,5 +125,15 @@ body {
   }
   .project-showcase {
     margin-left: 100px;
+  }
+}
+
+@media (max-width: 900px) {
+  .bio-text {
+    margin-right: 20px;
+    margin-left: 35px;
+  }
+  h1 {
+    font-size: 40px;
   }
 }
