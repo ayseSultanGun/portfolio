@@ -46,7 +46,7 @@ h1 {
   padding-right: 100px;
 }
 
-.bio-text {
+.content-text {
   color: var(--secondary-color);
   margin-left: 300px;
   margin-right: 200px;
@@ -79,9 +79,13 @@ h1 {
   background: var(--fourth-color);
   color: var(--first-color);
 }
-.bio-text a {
+.content-text a {
   background: var(--fourth-color);
   color: var(--first-color);
+}
+
+.button-image:hover {
+  opacity: 0.5;
 }
 
 @media (max-width: 600px) {
@@ -129,7 +133,7 @@ h1 {
 }
 
 @media (max-width: 900px) {
-  .bio-text {
+  .content-text {
     margin-right: 20px;
     margin-left: 35px;
   }
