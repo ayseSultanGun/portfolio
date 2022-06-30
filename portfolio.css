@@ -80,8 +80,11 @@ h1 {
   color: var(--first-color);
 }
 .content-text a {
-  background: var(--fourth-color);
-  color: var(--first-color);
+  background: var(--first-color);
+  color: var(--secondary-color);
+}
+.content-text h3 {
+  color: var(--third-color);
 }
 
 .button-image:hover {
