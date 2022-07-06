@@ -32,7 +32,7 @@ nav a {
 nav a:hover {
   color: var(--secondary-color);
 }
-nav li.active {
+nav li .active {
   color: var(--fourth-color);
 }
 .logo {
@@ -151,7 +151,6 @@ footer {
 footer .contact-box {
   background: var(--first-color);
   padding: 30px 120px;
-  border-radius: ;
   color: var(--third-color);
 }
 
