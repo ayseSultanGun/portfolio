@@ -235,4 +235,11 @@ footer .social-links a:hover {
   h1 {
     font-size: 40px;
   }
+  .project-text {
+    font-size: 15px;
+    margin: 10px;
+  }
+  a.email-link {
+    font-size: 20px;
+  }
 }
